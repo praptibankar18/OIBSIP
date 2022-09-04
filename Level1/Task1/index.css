@@ -1,0 +1,148 @@
+
+*{margin:0;padding:0;text-decoration:none;list-style-type:none;font-family:"Century gothic";}
+
+/* header css starts */
+header{}
+
+header>#head{padding: 0% 10%;background:#000;overflow: hidden;}
+
+header>#head>ul{overflow: hidden;float: left;margin: 0;}
+
+header>#head>ul>li{float: left;padding: 0px 10px;}
+
+header>#head>ul>li>a{font-size: 20px;}
+
+header>#head>ul>li>a>i{color: #fff;padding: 8px 0;}
+
+header>#head>a{float: right;color: #fff;padding: 8px 0;}
+
+header>#head>a:hover{text-decoration:none;}
+
+header>#logo{text-align: center;border-bottom: 1px solid #d4d3d3;}
+
+header>#logo>img{margin: 4% auto 2% auto;padding: 0% 33%;}
+
+header>#nav{padding: 0px 25%;}
+
+header>#bt{display: none;}
+
+header>#bt>#resbt{}
+
+header>#nav>ul{overflow: hidden;padding: 15px;width: 70%;margin: 0 auto;}
+
+header>#nav>ul>li{float: left;border-right: 1px solid #d4d3d3;line-height: 15px;}
+
+header>#nav>ul>li>a{margin: 4px 18px;color: #A3A3A3;}
+
+header>#nav>ul>li>a:hover{text-decoration:none;}
+/* header css ends*/
+
+/* main css starts*/
+#home{}
+
+#home>#block1{margin: 2% 0%;position: relative;}
+
+#home>#block1>img{display: block;width: 100%;height: 100vh;}
+
+#home>#block1>.block1_1{text-align: center;position: absolute;top: 40%;right: 38%;color: #00000091;}
+
+#home>#block1>.block1_1>h3{font-size: 64px;}
+
+#home>#block1>.block1_1>p{margin: 0;font-size: 23px;}
+
+#home>#block2{margin: 1% 8%;}
+
+#home>#block2>ul{overflow: hidden;background-image: url(img/contact.jpg);}
+
+#home>#block2>ul>li{float: left;width: 40%;margin-right: 3%;text-align: center;padding: 3%;}
+
+#home>#block2>ul>li>h5{font-size: 42px;}
+
+#home>#block2>ul>li>p{margin: 3px;}
+
+#home>#block2>ul>li>a{color: #000;border-top: 1px solid #000;border-bottom: 1px solid #000;padding: 3px;margin: 0;}
+
+#home>#block2>ul>li>a:hover{text-decoration:none;}
+
+#home>#block3{margin: 2%;}
+
+#home>#block3>h4{text-align: center;font-size: 50px;}
+
+#home>#block3>p{text-align: center;font-size: 18px;color: #ccc;}
+
+#home>#block3>ul{overflow: hidden;padding-left: 2%;}
+
+#home>#block3>ul>li{float: left;margin-right: 2%;width: 31.3%;margin-bottom: 2%;}
+
+#home>#block3>ul>li>p{}
+
+#home>#block3>ul>li>img{display: block;width: 100%;}
+
+#home>#block4{margin: 3% 10%;background: #F9F9F9;overflow: hidden;}
+
+#home>#block4>img{display: block;width: 60%;float: left;margin-right: 2%;}
+
+#home>#block4>div{}
+
+#home>#block4>div>h5{text-align: center;font-size: 40px;padding-top: 5%;}
+
+#home>#block4>div>p{text-align: center;padding: 4% 2%;display: block;font-size: 20px;}
+
+/*footer css starts*/	
+footer{padding: 1% 4%;border-top: 1px solid #ccc;overflow: hidden;}
+
+footer>#foot1{float: left;width: 30%;text-align: center;}
+
+footer>#foot1>h5{font-size: 24px;}
+
+footer>#foot1>address{margin: 0;color: #8f8f8f;}
+
+footer>#foot1>a{color: #8f8f8f;}
+
+footer>#foot1>a:hover{text-decoration:none;}
+
+footer>#foot1>p{color: #8f8f8f;}
+
+footer>#foot2{float: left;margin-right: 5%;width: 30%;text-align: center;}
+
+footer>#foot2>h5{font-size: 24px;}
+
+footer>#foot2>ul{overflow: hidden;}
+
+footer>#foot2>ul>li{padding: 1% 0;}
+
+footer>#foot2>ul>li>a{color: #8f8f8f;}
+
+footer>#foot2>ul>li>a:hover{text-decoration:none;}
+
+footer>#foot3{float: left;width: 35%;}
+
+footer>#foot3>h5{font-size: 24px;margin-bottom: 5%;}
+
+footer>#foot3>input[type="email"]{border: 1px solid #e5e2e2;background-color: #F9F9F9;padding: 5px 10px;width: 60%;}
+
+footer>#foot3>input[type="submit"]{width: 35%;padding: 6px;border: 0;margin-left: -5px;color: #fff;background-color: #6AB1BF;}	
+
+footer>#foot3>div{padding: 2% 0;}
+
+footer>#foot3>div>p{font-size: 20px;}
+
+footer>#foot3>div>ul{overflow: hidden;}
+
+footer>#foot3>div>ul>li{float: left;margin-right: 1%;}
+
+footer>#foot3>div>ul>li>a{padding: 0 6px;font-size: 24px;color: #838787;}
+
+footer>#foot3>div>ul>li>a>i{}
+
+#bottom{overflow: hidden;background: #000;padding: 0% 10%;}
+
+#bottom>#bt1{overflow: hidden;float: left;width: 50%;}
+
+#bottom>#bt1>p{margin: 0;padding: 1%;color: #fff;}
+
+#bottom>#bt2{overflow: hidden;float: right;}
+
+#bottom>#bt2>p{margin: 0;line-height: 32px;color: #fff;}
+
+/*footer css ends*/
